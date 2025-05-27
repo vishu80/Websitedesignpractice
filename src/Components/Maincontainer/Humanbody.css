@@ -1,0 +1,108 @@
+.humancontainer{
+  display: flex;
+  /* flex-direction: row;  */
+  /* align-items: center; */
+  justify-content: space-around;
+  /* justify-content: space-; */
+}
+
+
+
+.human-img {
+  width: 20%;
+  height: 30%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.activity-chart{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.btn {
+  position: absolute;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.heart-btn {
+  top: 33%;
+  left: 29%;
+  background-color:#02017f
+  
+}
+
+.leg-btn {
+  top: 55%;
+  left: 18%;
+  background-color:#1ccfc9; 
+  color: black;
+}
+
+@media (max-width: 768px) {
+.btn {
+  position: absolute;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+}
+
+
+@media (max-width: 768px) {
+  .heart-btn {
+    top: 36%;
+    left: 25%;
+  }
+
+  .leg-btn {
+    top: 67%;
+    left: 14%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heart-btn {
+    top: 32%;
+    left: 43%;
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .leg-btn {
+    top: 70%;
+    left: 12%;
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+.progress-bar-align-vertical{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.progress-icon{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progress-text{
+  display: flex;
+  flex-direction:row ;
+  gap:10px
+
+}
